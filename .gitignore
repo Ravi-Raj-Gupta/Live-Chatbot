@@ -1,0 +1,10 @@
+# Secrets
+.env
+backend/.env
+.env.local
+.env.*.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
