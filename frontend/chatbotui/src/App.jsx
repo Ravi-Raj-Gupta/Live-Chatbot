@@ -41,7 +41,7 @@ const App = () => {
 
     try {
       // 🔴 MAIN API CALL
-      const response = await fetch(`${BASE_URL}/chat/`, {
+      const response = await fetch(`${VITE_BASE_URL}/chat/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
