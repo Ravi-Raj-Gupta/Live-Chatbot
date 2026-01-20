@@ -38,7 +38,8 @@ const App = () => {
 
       try {
          // 🔴 MAIN API CALL
-         const response = await fetch(`https://live-chatbot-8l2i.onrender.com/chat/`, {
+         const response = await fetch(`${BASE_URL}/chat/`, {
+         // const response = await fetch(`https://live-chatbot-8l2i.onrender.com/chat/`, {
             method: "POST",
             headers: {
                "Content-Type": "application/json",
